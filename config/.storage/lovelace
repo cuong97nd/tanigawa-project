@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "custom:webrtc-camera",
+                            "url": "rtsp://FZCR8elr:LOSEvOzJos3P7yJU@192.168.0.15:554/live/ch0",
+                            "mse": false,
+                            "webrtc": true
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

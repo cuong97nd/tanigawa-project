@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.tanigawa",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "tanigawa",
+                    "user_id": "a7b2ecf6fb32483699b0f1b0114c42f7",
+                    "friendly_name": "tanigawa"
+                },
+                "last_changed": "2022-02-06T00:25:23.860720+00:00",
+                "last_updated": "2022-02-06T00:25:24.755947+00:00",
+                "context": {
+                    "id": "d6d727205915d32eecd800bed9a691a1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-02-06T01:25:24.764032+00:00"
+        }
+    ]
+}

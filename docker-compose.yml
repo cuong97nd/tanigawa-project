@@ -1,8 +1,21 @@
 version: '3'
 services:
-  webserver:
+  recorder:
     build: node
     image: node-recorder:1.0
     volumes:
       - ./node:/app
       - ./media:/app/media
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - ./config:/config
+      - ./media:/media
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host

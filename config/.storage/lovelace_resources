@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/webrtc/webrtc-camera.js?v2.2.0",
+                "type": "module",
+                "id": "1ed72809110646099ecb7cdf4d89503d"
+            }
+        ]
+    }
+}

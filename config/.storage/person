@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "tanigawa",
+                "user_id": "a7b2ecf6fb32483699b0f1b0114c42f7",
+                "device_trackers": [],
+                "id": "tanigawa"
+            }
+        ]
+    }
+}
